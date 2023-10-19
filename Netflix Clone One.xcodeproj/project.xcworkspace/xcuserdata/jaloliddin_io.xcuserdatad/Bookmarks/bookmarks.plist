@@ -12,13 +12,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>35</string>
+					<string>39</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>34</string>
+					<string>38</string>
 					<key>Timestamp</key>
-					<string>719108418.308772</string>
+					<string>719293628.226343</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -34,12 +34,12 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>
+				<string>                completion(.success(results.results))
 </string>
 				<key>leading</key>
 				<string>            do {
                 let results = try JSONDecoder().decode(TrendingTitleResponse.self, from: data)
-                completion(.success(results.results))</string>
+</string>
 				<key>trailing</key>
 				<string>            } catch {          
                 completion(.failure(APIError.failedTogateData))
